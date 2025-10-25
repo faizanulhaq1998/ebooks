@@ -58,21 +58,21 @@ These settings are designed for:
 Want to adjust the bot? Edit these key values in the XML:
 
 ### Change Stake Amount
-Find this line (~line 55):
+Find this line (~line 53):
 ```xml
 <field name="NUM">0.35</field>
 ```
 Change `0.35` to your desired stake (e.g., `1.00`)
 
 ### Change Stop Loss
-Find this line (~line 69):
+Find this line (~line 77):
 ```xml
 <field name="NUM">-10</field>
 ```
 Change `-10` to your stop loss (e.g., `-20`)
 
 ### Change Take Profit
-Find this line (~line 78):
+Find this line (~line 85):
 ```xml
 <field name="NUM">10</field>
 ```
